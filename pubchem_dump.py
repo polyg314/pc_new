@@ -13,7 +13,7 @@ from biothings.hub.dataload.dumper import FTPDumper, DumperException
 
 class PubChemDumper(FTPDumper):
 
-    SRC_NAME = "pubchem"
+    SRC_NAME = "pc_new"
     SRC_ROOT_FOLDER = os.path.join(DATA_ARCHIVE_ROOT, SRC_NAME)
     FTP_HOST = 'ftp.ncbi.nlm.nih.gov'
     CWD_DIR = '/pubchem/Compound/CURRENT-Full/XML'
